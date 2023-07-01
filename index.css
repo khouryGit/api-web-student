@@ -68,27 +68,3 @@ table {
   
 
 
-/*table {
-    width: 100%;
-    border-collapse: collapse;
-  }
-  table, th, td {
-    border: 1px solid black;
-  }
-  th, td {
-    padding: 8px;
-    text-align: left;
-  }
-  h1 {
-    text-align: center;
-  }
-  button {
-    margin-bottom: 10px;
-  }
-  thead th {
-    background-color: #f2f2f2;
-  }
-  tbody tr:nth-child(even) {
-    background-color: #f9f9f9;
-  }
-   */
