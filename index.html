@@ -1,5 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Read Excel Data into Table</title>
+  <script src="index.js"></script>
+  <link rel="stylesheet" href="index.css">
+</head>
 <body>
-    <script src="index.js"></script>    
-    <button onclick="GetAllStudents()">Retrieve Students</button>
-    <ul id="students"></ul>
+  <h1 id="id">Student Information</h1>
+  <button onclick="loadData()">Load Data</button>
+  <table id="studentTable" border="2">
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Grade</th>
+        <th>Email</th>
+        <th>Result</th>
+      </tr>
+    </thead>
+    <tbody id="studentData">
+    </tbody>
+  </table>
 </body>
+</html>
+
+
+
+
+<!-- <body>
+    <script src="index.js"></script>    
+    <button onclick="GetAllStudents()">Get All Students</button>
+    <table border="1" id="students">
+        <thead>
+            <tr>
+              <th>Ids</th>
+              <th>Names</th>
+              <th>Notes</th>
+              <th>Emails</th>
+              <th>Results</th>
+            </tr>
+          </thead>
+          <tbody id="tableBody"></tbody>
+    </table>
+</body> -->
